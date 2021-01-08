@@ -49,4 +49,4 @@ void subnetmaskCalc(int hostQuery)
     for (int i = 0; i < 4; i++)
         cout << decimalMask[i] << ".";
     
-}//cout << "HOSTAMOUNT : " << hostAmount << " "<<  "MASKZEROES : " << maskZeroes << " " << "STR CONTENTS : " << str <<"\n";
+}
