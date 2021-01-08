@@ -11,7 +11,6 @@ string binaryConverter(string binaryString, int size)
 		else 
 			decCalc = (1 * pow(2.0, i));
 		binaryAsDec = binaryAsDec + decCalc;
-		//cout << "BINAARYASDEC: " << " " << binaryAsDec << "\n";
 	}
 	decimalString = to_string(binaryAsDec);
 	binaryAsDec = 0;
